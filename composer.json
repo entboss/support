@@ -1,8 +1,21 @@
 {
     "name": "entboss/support",
-	"type": "library",
-    "description": "The EntBoss Support.",
+    "description": "The EntBoss Support Library.",
+    "authors": [
+        {    
+          "name": "entboss",    
+          "email": "entboss@hotmail.com"
+        }
+    ],
     "license": "MIT",
+    "type": "library",
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+	"minimum-stability": "dev",
+    "prefer-stable": true,
 	"require": {
         "php": "^7.2",
         "illuminate/support": "^6.1"
